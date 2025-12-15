@@ -23,7 +23,7 @@ using namespace std;
 
 int main()
 {
-	cout << "3°­" << endl;
+	/*cout << "3°­" << endl;
 
 	Person p1{};
 	Person p2(20, "È«±æµ¿", "ºÎ»ê");
@@ -34,10 +34,10 @@ int main()
 	Person p3(1000, 20, "±è±è±è", "¼­¿ï");
 	p3.ToString();
 
-	Person p4(500, 30, "ÃáÇâÀÌ", "Á¶¼±", "¹ÌÀÎ"); 
+	Person p4(500, 30, "ÃáÇâÀÌ", "Á¶¼±", "¹ÌÀÎ"); */
 
 	// Á÷Á¢ Å¬·¡½º¸¦ µ¿ÀûÇÒ´ç ÇØº¸ÀÚ.
-	Person* p_ptr{} = new Person(500, 30, "¸ù·æÀÌ", "Á¶¼±", "¾ç¹Ý");
-	delete p_ptr;
+	//Person* p_ptr{} = new Person(500, 30, "¸ù·æÀÌ", "Á¶¼±", "¾ç¹Ý");
+	//delete p_ptr;
 
 }

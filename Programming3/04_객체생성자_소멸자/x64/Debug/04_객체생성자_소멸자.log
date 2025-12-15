@@ -1,0 +1,5 @@
+﻿  04_main.cpp
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\04_객체생성자_소멸자\04_main.cpp(37,10): warning C4930: 'Monster mon3(void)': 프로토타입 함수가 호출되지 않았습니다. 변수 정의로 사용하려고 한 것은 아닌지 확인하십시오.
+  Monster.cpp
+  코드를 생성하고 있습니다...
+  04_객체생성자_소멸자.vcxproj -> C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\x64\Debug\04_객체생성자_소멸자.exe

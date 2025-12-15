@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61529CDD-C04A-4A00-B6E4-E9B3478582B9}|02_\uD3EC\uC778\uD130\uC640 \uCC38\uC870\uC790\\02_\uD3EC\uC778\uD130\uC640 \uCC38\uC870\uC790.vcxproj|C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\02_\uD3EC\uC778\uD130\uC640 \uCC38\uC870\uC790\\02_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{61529CDD-C04A-4A00-B6E4-E9B3478582B9}|02_\uD3EC\uC778\uD130\uC640 \uCC38\uC870\uC790\\02_\uD3EC\uC778\uD130\uC640 \uCC38\uC870\uC790.vcxproj|solutionrelative:02_\uD3EC\uC778\uD130\uC640 \uCC38\uC870\uC790\\02_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F95DCC93-9E06-45E3-A1C2-BC492A81D022}|04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790.vcxproj|C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F95DCC93-9E06-45E3-A1C2-BC492A81D022}|04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790.vcxproj|solutionrelative:04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95DCC93-9E06-45E3-A1C2-BC492A81D022}|04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790.vcxproj|C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\04_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F95DCC93-9E06-45E3-A1C2-BC492A81D022}|04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790.vcxproj|solutionrelative:04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\04_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95DCC93-9E06-45E3-A1C2-BC492A81D022}|04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790.vcxproj|C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F95DCC93-9E06-45E3-A1C2-BC492A81D022}|04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790.vcxproj|solutionrelative:04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "02_main.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\02_\uD3EC\uC778\uD130\uC640 \uCC38\uC870\uC790\\02_main.cpp",
-              "RelativeDocumentMoniker": "02_\uD3EC\uC778\uD130\uC640 \uCC38\uC870\uC790\\02_main.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\02_\uD3EC\uC778\uD130\uC640 \uCC38\uC870\uC790\\02_main.cpp",
-              "RelativeToolTip": "02_\uD3EC\uC778\uD130\uC640 \uCC38\uC870\uC790\\02_main.cpp",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAE8AAAAdAAAAAAAAAA==",
+              "Title": "Monster.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\Monster.cpp",
+              "RelativeDocumentMoniker": "04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\Monster.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\Monster.cpp",
+              "RelativeToolTip": "04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\Monster.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-11T07:02:23.596Z",
+              "WhenOpened": "2025-12-15T07:29:37.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Monster.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\Monster.h",
+              "RelativeDocumentMoniker": "04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\Monster.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\Monster.h",
+              "RelativeToolTip": "04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\Monster.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-15T07:11:20.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "04_main.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\04_main.cpp",
+              "RelativeDocumentMoniker": "04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\04_main.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\04_main.cpp",
+              "RelativeToolTip": "04_\uAC1D\uCCB4\uC0DD\uC131\uC790_\uC18C\uBA78\uC790\\04_main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-15T07:03:46.901Z",
               "EditorCaption": ""
             }
           ]
