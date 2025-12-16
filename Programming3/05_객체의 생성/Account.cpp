@@ -25,7 +25,7 @@ Account::Account(Account&& other) noexcept : currency(other.currency)
 	cout << "이동 생성자 호출" << endl;
 	//delete iptr;				// 이전 주소 지우기
 	iptr = other.iptr;			// 다른 주소의 포인터로 옮기겠다.
-	other.iptr = nullptr;		//주소를 가르키지 말라.
+	other.iptr = nullptr;		// 주소를 가르키지 말라.
 
 }
 
@@ -39,12 +39,14 @@ int Account::withDraw(int amount)
 	// 현재 내가 가진 돈 + amount 
 	int temp = get_currency() - amount;
 	set_currency(temp);
-	int real = amount;
+	int real = 0;
 	if (get_currency() < amount)
 	{
 		real = get_currency();
 	}
 	set_currency(temp);
+
+	return real;
 }
 
 void Account::deposit(int amount)
