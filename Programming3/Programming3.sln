@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_C++ 시작하기", "01_C++ 시작하기\01_C++ 시작하기.vcxproj", "{BE2D69D4-66E1-493D-889D-FB76067362C2}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_객체지향프로그래밍", "03_객체지향프로그래밍\03_객체지향프로그래밍.vcxproj", "{0B8C0FCC-2A03-45CA-BB12-E552938E9A1F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_객체생성자_소멸자", "04_객체생성자_소멸자\04_객체생성자_소멸자.vcxproj", "{F95DCC93-9E06-45E3-A1C2-BC492A81D022}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_객체의 생성", "05_객체의 생성\05_객체의 생성.vcxproj", "{7B5AB47A-C3C6-4A11-82DC-E11E705AEDD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{F95DCC93-9E06-45E3-A1C2-BC492A81D022}.Release|x64.Build.0 = Release|x64
 		{F95DCC93-9E06-45E3-A1C2-BC492A81D022}.Release|x86.ActiveCfg = Release|Win32
 		{F95DCC93-9E06-45E3-A1C2-BC492A81D022}.Release|x86.Build.0 = Release|Win32
+		{7B5AB47A-C3C6-4A11-82DC-E11E705AEDD0}.Debug|x64.ActiveCfg = Debug|x64
+		{7B5AB47A-C3C6-4A11-82DC-E11E705AEDD0}.Debug|x64.Build.0 = Debug|x64
+		{7B5AB47A-C3C6-4A11-82DC-E11E705AEDD0}.Debug|x86.ActiveCfg = Debug|Win32
+		{7B5AB47A-C3C6-4A11-82DC-E11E705AEDD0}.Debug|x86.Build.0 = Debug|Win32
+		{7B5AB47A-C3C6-4A11-82DC-E11E705AEDD0}.Release|x64.ActiveCfg = Release|x64
+		{7B5AB47A-C3C6-4A11-82DC-E11E705AEDD0}.Release|x64.Build.0 = Release|x64
+		{7B5AB47A-C3C6-4A11-82DC-E11E705AEDD0}.Release|x86.ActiveCfg = Release|Win32
+		{7B5AB47A-C3C6-4A11-82DC-E11E705AEDD0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
