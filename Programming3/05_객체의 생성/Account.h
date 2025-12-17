@@ -23,7 +23,7 @@ private:
 public:		
 	Account();								   // 초기화를 위한 생성자. default, no args (기본 생성자)
 	Account(int money);						   // 중첩 정의 생성자 overloead constructor
-	Account(const Account& other);			   // 복사 생성자 copy constructor 참조하여 다른 곳으로부터 복제할 것이다. 복제용이니 const로 고정
+	Account(const Account& other);			   // 복사 생성자 copy constructor 참조하여 다른 곳에 복제할 것이다. 복제용이니 const로 고정
 	Account(Account&& other) noexcept;		   // RValue 타입, 이동 생성자 move
 	~Account();								   // 소멸자(클래스 이름과 같은 이름) 선언
 	
