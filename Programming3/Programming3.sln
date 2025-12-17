@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_객체생성자_소멸�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_객체의 생성", "05_객체의 생성\05_객체의 생성.vcxproj", "{7B5AB47A-C3C6-4A11-82DC-E11E705AEDD0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_연산자 오버로딩", "06_연산자 오버로딩\06_연산자 오버로딩.vcxproj", "{798B9EA2-0FF1-48B7-8B19-8CA06E365F0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{7B5AB47A-C3C6-4A11-82DC-E11E705AEDD0}.Release|x64.Build.0 = Release|x64
 		{7B5AB47A-C3C6-4A11-82DC-E11E705AEDD0}.Release|x86.ActiveCfg = Release|Win32
 		{7B5AB47A-C3C6-4A11-82DC-E11E705AEDD0}.Release|x86.Build.0 = Release|Win32
+		{798B9EA2-0FF1-48B7-8B19-8CA06E365F0C}.Debug|x64.ActiveCfg = Debug|x64
+		{798B9EA2-0FF1-48B7-8B19-8CA06E365F0C}.Debug|x64.Build.0 = Debug|x64
+		{798B9EA2-0FF1-48B7-8B19-8CA06E365F0C}.Debug|x86.ActiveCfg = Debug|Win32
+		{798B9EA2-0FF1-48B7-8B19-8CA06E365F0C}.Debug|x86.Build.0 = Debug|Win32
+		{798B9EA2-0FF1-48B7-8B19-8CA06E365F0C}.Release|x64.ActiveCfg = Release|x64
+		{798B9EA2-0FF1-48B7-8B19-8CA06E365F0C}.Release|x64.Build.0 = Release|x64
+		{798B9EA2-0FF1-48B7-8B19-8CA06E365F0C}.Release|x86.ActiveCfg = Release|Win32
+		{798B9EA2-0FF1-48B7-8B19-8CA06E365F0C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
