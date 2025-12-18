@@ -41,7 +41,9 @@ Mystring Mystring::operator=(const Mystring& other)
 
 
 	return *this;
-}
+} 
+// return Mystring은 null문자를 넣어준 상태이기 때문에 "이순신" 문자가 저장이 안됌. 
+// 복사 코드 선언을 통해서 이순신 문자 저장할 수 있도록 해결.
 
 Mystring Mystring::operator=(Mystring&& rhs) noexcept
 {
@@ -59,7 +61,15 @@ Mystring Mystring::operator=(Mystring&& rhs) noexcept
 
 Mystring Mystring::CopyAssignment(const Mystring& other)
 {
-	return Mystring();
+	if (this == &other)
+		return *this; // this가 주소이기 때문에 역참조 * 
+
+	delete[] str;
+	str = new char[std::strlen(other.str) + 1];
+	std::strcpy(str, other.str);
+
+
+	return *this;
 }
 
 ostream& operator<<(ostream& os, const Mystring& obj)

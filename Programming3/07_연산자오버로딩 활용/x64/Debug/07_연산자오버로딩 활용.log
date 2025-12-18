@@ -1,0 +1,53 @@
+﻿  07_main.cpp
+  Monster.cpp
+  Moveable.cpp
+  코드를 생성하고 있습니다...
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(5,11): error C2039: 'pos': 'Moveable'의 멤버가 아닙니다.
+      C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.h(5,7):
+      'Moveable' 선언을 참조하십시오.
+  
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(5,21): error C2061: 구문 오류: 식별자 'Pos'
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(8,11): error C7550: 'Moveable::{ctor}': 이 컨텍스트의 정규화된 이름이 형식이 아니라 생성자의 이름을 지정합니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(8,20): error C2065: 'Pos': 선언되지 않은 식별자입니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(8,25): error C2065: 'other': 선언되지 않은 식별자입니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(9,1): error C2059: 구문 오류: '{'
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(9,1): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(9,1): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(16,12): error C2065: 'pos': 선언되지 않은 식별자입니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(16,5): error C2541: 'delete': 포인터가 아닌 개체를 삭제할 수 없습니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(19,16): error C2511: 'void Moveable::Move(int,int)': 오버로드된 멤버 함수가 'Moveable'에 없습니다.
+      C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.h(5,7):
+      'Moveable' 선언을 참조하십시오.
+  
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(21,5): error C2065: 'pos': 선언되지 않은 식별자입니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(24,16): error C2039: 'Teleport': 'Moveable'의 멤버가 아닙니다.
+      C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.h(5,7):
+      'Moveable' 선언을 참조하십시오.
+  
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(24,16): error C2182: 'Teleport': 이 'void' 사용은 유효하지 않습니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(24,25): error C2065: 'Pos': 선언되지 않은 식별자입니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(24,30): error C2065: 'other_pos': 선언되지 않은 식별자입니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(25,1): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(26,5): error C3927: '->': 후행 반환 형식은 비함수 선언자 뒤에 올 수 없습니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(26,10): error C3613: '->' 후 반환 형식이 없습니다('int'로 간주됨).
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(26,5): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(26,10): error C2146: 구문 오류: ';'이(가) 'Teleport' 식별자 앞에 없습니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(27,1): error C2059: 구문 오류: '}'
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(27,1): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(29,16): error C2039: 'display_pos': 'Moveable'의 멤버가 아닙니다.
+      C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.h(5,7):
+      'Moveable' 선언을 참조하십시오.
+  
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(30,1): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(30,1): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(34,4): error C2143: 구문 오류: ';'이(가) '&' 앞에 없습니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(34,1): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(34,16): error C2039: 'get_pos': 'Moveable'의 멤버가 아닙니다.
+      C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.h(5,7):
+      'Moveable' 선언을 참조하십시오.
+  
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(34,16): error C2270: 'get_pos': 비멤버 함수에 한정자를 사용할 수 없습니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(34,16): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(35,1): error C2059: 구문 오류: '{'
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(35,1): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\07_연산자오버로딩 활용\Moveable.cpp(35,1): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
