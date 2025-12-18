@@ -14,6 +14,6 @@ public:
 
     void Move(int x, int y);
     void Teleport(Pos* other);
-    Pos& get_pos();
+    void display_pos(); // 
 };
 

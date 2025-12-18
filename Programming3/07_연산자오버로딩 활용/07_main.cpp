@@ -38,7 +38,6 @@ int main()
     Pos* dungeonPosptr = new Pos(100, 100);
     Player p1(&startPlayerPos);
 
-    
     p1.Move(1, 1);
     p1.display_pos();
     p1.Teleport(dungeonPosptr);

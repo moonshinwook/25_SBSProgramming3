@@ -1,17 +1,21 @@
 #pragma once
+#include "Pos.h"
 
-#include "Moveable.h"
-
-class Moveable
+class Moveable 
 {
 private:
-    Moveable* mov;
+    Pos* pos;
 public:
     Moveable(); // 기본 생성자
+    Moveable(Pos* pos);
     Moveable(const Moveable& other);
     Moveable(Moveable&& rhs);
     ~Moveable();
 
-    void Move();
+    void Move(int x, int y);
+    void Teleport(Pos* other);
+
+    Pos& get_pos() const;     //      const Player ->  함수 실행
+    void display_pos() const; //
 };
 

@@ -18,6 +18,6 @@ public:
     void Teleport(Pos* other_pos);
 
     Pos& get_pos() const;     //      const Player ->  함수 실행
-    void display_pos() const; // 
+    void display_pos() const; //     get pos 함수가 const 타입이라 const를 붙임
 };
 

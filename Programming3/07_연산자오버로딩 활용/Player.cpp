@@ -26,12 +26,13 @@ void Player::Teleport(Pos* other_pos)
     pos->Teleport(other_pos);
 }
 
-void Player::display_pos() const
-{
-    cout << "p1ÀÇ ÁÂÇ¥ : " << get_pos();
-}
 
 Pos& Player::get_pos() const
 {
     return *pos;
+}
+
+void Player::display_pos() const
+{
+    cout << "p1ÀÇ ÁÂÇ¥ : " << get_pos();
 }
