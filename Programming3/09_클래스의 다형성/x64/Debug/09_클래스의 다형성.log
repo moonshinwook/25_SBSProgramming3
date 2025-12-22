@@ -1,0 +1,6 @@
+﻿  09_main.cpp
+  Base.cpp
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\09_클래스의 다형성\Base.cpp(33,19): warning C4101: 'all_Display' :참조되지 않은 지역 변수입니다.
+  Idisplayable.cpp
+  코드를 생성하고 있습니다...
+  09_클래스의 다형성.vcxproj -> C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\x64\Debug\09_클래스의 다형성.exe

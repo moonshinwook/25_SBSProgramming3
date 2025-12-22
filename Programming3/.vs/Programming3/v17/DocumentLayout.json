@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F875923C-4470-4336-9E44-21EA55D2B899}|08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\08_\uC0C1\uC18D\uACFC \uAD6C\uC131.vcxproj|C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\Moveable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F875923C-4470-4336-9E44-21EA55D2B899}|08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\08_\uC0C1\uC18D\uACFC \uAD6C\uC131.vcxproj|solutionrelative:08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\Moveable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{33584BDC-0A52-4046-B12F-A8CB3FD8EF10}|09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131.vcxproj|C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{33584BDC-0A52-4046-B12F-A8CB3FD8EF10}|09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131.vcxproj|solutionrelative:09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F875923C-4470-4336-9E44-21EA55D2B899}|08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\08_\uC0C1\uC18D\uACFC \uAD6C\uC131.vcxproj|C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\Moveable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F875923C-4470-4336-9E44-21EA55D2B899}|08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\08_\uC0C1\uC18D\uACFC \uAD6C\uC131.vcxproj|solutionrelative:08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\Moveable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{33584BDC-0A52-4046-B12F-A8CB3FD8EF10}|09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131.vcxproj|C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Base.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{33584BDC-0A52-4046-B12F-A8CB3FD8EF10}|09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131.vcxproj|solutionrelative:09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Base.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F875923C-4470-4336-9E44-21EA55D2B899}|08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\08_\uC0C1\uC18D\uACFC \uAD6C\uC131.vcxproj|C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\08_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F875923C-4470-4336-9E44-21EA55D2B899}|08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\08_\uC0C1\uC18D\uACFC \uAD6C\uC131.vcxproj|solutionrelative:08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\08_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{33584BDC-0A52-4046-B12F-A8CB3FD8EF10}|09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131.vcxproj|C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Idisplayable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{33584BDC-0A52-4046-B12F-A8CB3FD8EF10}|09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131.vcxproj|solutionrelative:09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Idisplayable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33584BDC-0A52-4046-B12F-A8CB3FD8EF10}|09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131.vcxproj|C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Idisplayable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{33584BDC-0A52-4046-B12F-A8CB3FD8EF10}|09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131.vcxproj|solutionrelative:09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Idisplayable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33584BDC-0A52-4046-B12F-A8CB3FD8EF10}|09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131.vcxproj|C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{33584BDC-0A52-4046-B12F-A8CB3FD8EF10}|09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131.vcxproj|solutionrelative:09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "08_main.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\08_main.cpp",
-              "RelativeDocumentMoniker": "08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\08_main.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\08_main.cpp",
-              "RelativeToolTip": "08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\08_main.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "09_main.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_main.cpp",
+              "RelativeDocumentMoniker": "09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_main.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_main.cpp",
+              "RelativeToolTip": "09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\09_main.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-19T07:04:34.091Z",
+              "WhenOpened": "2025-12-22T07:02:53.399Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Moveable.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\Moveable.cpp",
-              "RelativeDocumentMoniker": "08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\Moveable.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\Moveable.cpp",
-              "RelativeToolTip": "08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\Moveable.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Idisplayable.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Idisplayable.cpp",
+              "RelativeDocumentMoniker": "09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Idisplayable.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Idisplayable.cpp",
+              "RelativeToolTip": "09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Idisplayable.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-19T07:59:19.539Z",
+              "WhenOpened": "2025-12-22T07:49:44.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Idisplayable.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Idisplayable.h",
+              "RelativeDocumentMoniker": "09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Idisplayable.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Idisplayable.h",
+              "RelativeToolTip": "09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Idisplayable.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-22T07:41:04.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Moveable.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\Moveable.h",
-              "RelativeDocumentMoniker": "08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\Moveable.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\Moveable.h",
-              "RelativeToolTip": "08_\uC0C1\uC18D\uACFC \uAD6C\uC131\\Moveable.h",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Title": "Base.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Base.h",
+              "RelativeDocumentMoniker": "09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Base.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Base.h",
+              "RelativeToolTip": "09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Base.h",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-19T07:46:31.42Z",
+              "WhenOpened": "2025-12-22T07:05:57.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Base.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Base.cpp",
+              "RelativeDocumentMoniker": "09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Base.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Base.cpp",
+              "RelativeToolTip": "09_\uD074\uB798\uC2A4\uC758 \uB2E4\uD615\uC131\\Base.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-22T07:06:05.371Z",
               "EditorCaption": ""
             }
           ]
