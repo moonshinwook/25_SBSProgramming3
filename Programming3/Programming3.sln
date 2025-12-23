@@ -26,6 +26,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_상속과 구성", "08_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_클래스의 다형성", "09_클래스의 다형성\09_클래스의 다형성.vcxproj", "{33584BDC-0A52-4046-B12F-A8CB3FD8EF10}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_예제 게임 코드(달리기 프로젝트)", "10_예제 게임 코드(달리기 프로젝트)\10_예제 게임 코드(달리기 프로젝트).vcxproj", "{DF3850FA-7B57-4FBB-8045-48807B043A58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -106,6 +108,14 @@ Global
 		{33584BDC-0A52-4046-B12F-A8CB3FD8EF10}.Release|x64.Build.0 = Release|x64
 		{33584BDC-0A52-4046-B12F-A8CB3FD8EF10}.Release|x86.ActiveCfg = Release|Win32
 		{33584BDC-0A52-4046-B12F-A8CB3FD8EF10}.Release|x86.Build.0 = Release|Win32
+		{DF3850FA-7B57-4FBB-8045-48807B043A58}.Debug|x64.ActiveCfg = Debug|x64
+		{DF3850FA-7B57-4FBB-8045-48807B043A58}.Debug|x64.Build.0 = Debug|x64
+		{DF3850FA-7B57-4FBB-8045-48807B043A58}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF3850FA-7B57-4FBB-8045-48807B043A58}.Debug|x86.Build.0 = Debug|Win32
+		{DF3850FA-7B57-4FBB-8045-48807B043A58}.Release|x64.ActiveCfg = Release|x64
+		{DF3850FA-7B57-4FBB-8045-48807B043A58}.Release|x64.Build.0 = Release|x64
+		{DF3850FA-7B57-4FBB-8045-48807B043A58}.Release|x86.ActiveCfg = Release|Win32
+		{DF3850FA-7B57-4FBB-8045-48807B043A58}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

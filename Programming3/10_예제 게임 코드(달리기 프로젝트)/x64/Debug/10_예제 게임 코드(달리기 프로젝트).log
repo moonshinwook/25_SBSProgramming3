@@ -1,0 +1,5 @@
+﻿  Run_GameObject.cpp
+  Run_main.cpp
+C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\10_예제 게임 코드(달리기 프로젝트)\Run_main.cpp(8,21): warning C4101: 'goArray' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다...
+  10_예제 게임 코드(달리기 프로젝트).vcxproj -> C:\Users\Administrator\Desktop\25_SBSProgramming3\Programming3\x64\Debug\10_예제 게임 코드(달리기 프로젝트).exe
