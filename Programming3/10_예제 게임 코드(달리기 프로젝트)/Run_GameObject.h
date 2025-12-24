@@ -8,11 +8,12 @@ using namespace std;
 class Run_GameObject
 {
 private:
-    int x;
+  
     string shape;
     int speed;
     int movetick;
 protected:
+    int x;
     int y;
 public:
     Run_GameObject(int x, int y, string shape, int speed, int movetick = 0);
@@ -35,3 +36,18 @@ public:
     jump_GameObject();
     virtual void move() override;
 };
+
+class dash_GameObject : public Run_GameObject
+{
+private:
+    int dashPower;
+    int dashTime;
+    int dashtick;
+public:
+    dash_GameObject(int x, int y, string shape, int speed, int dashPower, int movetick = 0);
+    dash_GameObject();
+    void move() override;
+
+    void dash();
+};
+

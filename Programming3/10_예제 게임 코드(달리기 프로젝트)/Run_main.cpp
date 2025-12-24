@@ -5,16 +5,21 @@ int main()
 {
     ConsoleRender console;
 
-    Run_GameObject* goArray[4];
-
-    Run_GameObject* go1 = new Run_GameObject;
-    Run_GameObject* go2 = new Run_GameObject(80,6, "cpp run project", 5);
-    Run_GameObject* go3 = new Run_GameObject(80,6, "speedy", 1);
-    Run_GameObject* go4 = new jump_GameObject(80, 6, "jump", 1, 2);
+    Run_GameObject* goArray[7];
+    
+    goArray[0] = new Run_GameObject;
+    goArray[1] = new Run_GameObject(80,6, "cpp run project", 5);
+    goArray[2] = new Run_GameObject(80,6, "speedy", 1);
+    goArray[3] = new jump_GameObject(80, 6, "jump", 1, 2);
+    goArray[4] = new jump_GameObject(80, 10, "jump", 2, 3);
+    goArray[5] = new jump_GameObject(50, 10, "aa", 3, 3);
+    goArray[6] = new dash_GameObject(80, 6, "bb", 1, 8);
 
     while (true)
     {
         // 플레이어 입력 player->update
+
+        // player->update();
 
         // gameobject->Update
 
@@ -27,18 +32,22 @@ int main()
         //    goArray[i]->draw(console);
         //}
 
-        go1->update();
-        go2->update();
-        go3->update();
-        go4->update();
-
-        
-        // Rendering
+        for (const auto& go : goArray) // 복제를 자제시킴. 최적화
+        {
+            go->update();
+        }
         console.ScreenClear();
-        go1->draw(console);
-        go2->draw(console);
-        go3->draw(console);
-        go4->draw(console);
+
+
+
+   
+        // Rendering
+        // player->draw(console);
+
+        for (const auto& go : goArray)
+        {
+            go->draw(console);
+        }
        
         // Flip
         console.ScreenFlipping();
@@ -46,8 +55,6 @@ int main()
         // 고정 대기 시간 Frame Per Second
         Sleep(17);  // 대략  60프레임.  1000 / 60 = 16.666
     }
-    delete go1;
-    delete go2;
-    delete go3;
-    delete go4;
+    delete goArray;
+
 }

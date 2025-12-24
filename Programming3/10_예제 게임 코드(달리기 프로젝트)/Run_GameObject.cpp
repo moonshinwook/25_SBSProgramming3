@@ -65,12 +65,41 @@ void jump_GameObject::move()
             y += jumpPower;
         }
         isGround = !isGround;
-
-        Run_GameObject::move();
+        jumptick = 0;
     }
 
-    jumptick = 0;
+    Run_GameObject::move();
 
     //     x--;
     // if (x <= 0) { x = 80; } 를 복사한 것
+}
+
+dash_GameObject::dash_GameObject(int x, int y, string shape, int speed, int dashPower, int movetick)
+    : Run_GameObject(x, y, shape, speed), dashPower(dashPower)
+{
+    dashTime = 10;    // 30장 -> 0.5초
+    dashtick = 3;
+}
+
+dash_GameObject::dash_GameObject() : Run_GameObject(), dashPower(1)
+{
+    dashTime = 10;
+}
+
+void dash_GameObject::move()
+{
+    dashtick++;
+    if (dashTime <= dashtick) // 내가 움직이고 싶은 속도에 도달했을 때 
+    {
+        dash();
+
+        dashtick = 0;
+    }
+
+    Run_GameObject::move();
+}
+
+void dash_GameObject::dash()
+{
+    x -= dashPower;
 }
