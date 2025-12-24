@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{548D1486-9630-4DFE-9E04-E41F97135486}|Test\\Test.vcxproj|C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\Test\\Test_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{548D1486-9630-4DFE-9E04-E41F97135486}|Test\\Test.vcxproj|solutionrelative:Test\\Test_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DF3850FA-7B57-4FBB-8045-48807B043A58}|10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8).vcxproj|C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\Run_GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DF3850FA-7B57-4FBB-8045-48807B043A58}|10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8).vcxproj|solutionrelative:10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\Run_GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -34,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Run_main.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\Run_main.cpp",
               "RelativeDocumentMoniker": "10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\Run_main.cpp",
@@ -43,25 +47,49 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-23T07:12:13.108Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Test_main.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\Test\\Test_main.cpp",
+              "RelativeDocumentMoniker": "Test\\Test_main.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\Test\\Test_main.cpp",
+              "RelativeToolTip": "Test\\Test_main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-24T06:46:05.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Run_GameObject.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\Run_GameObject.cpp",
               "RelativeDocumentMoniker": "10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\Run_GameObject.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\Run_GameObject.cpp",
               "RelativeToolTip": "10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\Run_GameObject.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-23T07:35:16.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Run_GameObject.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\Run_GameObject.h",
               "RelativeDocumentMoniker": "10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\Run_GameObject.h",
@@ -69,12 +97,11 @@
               "RelativeToolTip": "10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\Run_GameObject.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-23T07:28:51.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T07:28:51.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ConsoleRender.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\ConsoleRender.cpp",
               "RelativeDocumentMoniker": "10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\ConsoleRender.cpp",
@@ -82,12 +109,11 @@
               "RelativeToolTip": "10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\ConsoleRender.cpp",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-23T07:11:47.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T07:11:47.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ConsoleRender.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25_SBSProgramming3\\Programming3\\10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\ConsoleRender.h",
               "RelativeDocumentMoniker": "10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\ConsoleRender.h",
@@ -95,8 +121,7 @@
               "RelativeToolTip": "10_\uC608\uC81C \uAC8C\uC784 \uCF54\uB4DC(\uB2EC\uB9AC\uAE30 \uD504\uB85C\uC81D\uD2B8)\\ConsoleRender.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-23T07:11:20.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T07:11:20.125Z"
             }
           ]
         }
