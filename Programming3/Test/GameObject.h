@@ -15,9 +15,9 @@ private:
 
 public:
     // 편의를 위해 GameObject에 간단한 생성자와 getter/setter를 추가했습니다.
-    GameObject(int hp, int atk, int def)
-        : HP(hp), ATK(atk), DEFENSE(def), DEBUFF(0) {
-    }
+    GameObject(int hp, int atk, int def, int debuff)
+        : HP(hp), ATK(atk), DEFENSE(def), DEBUFF(0) {}
+    GameObject(); // default
 
     int getHP() const { return HP; }
     void setHP(int hp) { HP = hp; }
@@ -29,18 +29,18 @@ public:
 class Player : public GameObject
 {
 private:
-    std::string playerName;
-    int level;
+    string playerName;
+    int gold;
 
 public:
     // Player 생성자는 부모 클래스(GameObject)의 생성자를 호출해야 합니다.
-    Player(const std::string& name, int hp, int atk, int def, int lvl)
-        : GameObject(hp, atk, def), playerName(name), level(lvl) {
+    Player(const string& name, int hp, int atk, int def, int debuff, int gold)
+        : GameObject(hp, atk, def, debuff), playerName(name), gold(gold) {
     }
 
     void displayStats() const {
-        std::cout << "플레이어 이름: " << playerName << ", 레벨: " << level
-            << ", HP: " << getHP() << std::endl;
+        cout << "플레이어 이름: " << playerName << ", 소지금: " << gold
+            << ", HP: " << getHP() << endl;
     }
 };
 
@@ -49,17 +49,17 @@ public:
 class Monster : public GameObject
 {
 private:
-    std::string monsterType;
-    int experienceValue; // 몬스터 처치 시 얻는 경험치
+    string monsterType;
+    int Gold; // 몬스터 처치 시 얻는 경험치
 
 public:
     // Monster 생성자는 부모 클래스(GameObject)의 생성자를 호출해야 합니다.
-    Monster(const std::string& type, int hp, int atk, int def, int exp)
-        : GameObject(hp, atk, def), monsterType(type), experienceValue(exp) {
+    Monster(const string& type, int hp, int atk, int def, int debuff, int gold)
+        : GameObject(hp, atk, def, debuff), monsterType(type), Gold(gold) {
     }
 
     void attackTarget() const {
-        std::cout << monsterType << " 이(가) 대상을 공격합니다!" << std::endl;
+        cout << monsterType << " 이(가) 대상을 공격합니다!" << endl;
     }
 };
 
