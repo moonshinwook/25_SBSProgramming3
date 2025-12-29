@@ -15,16 +15,7 @@ using namespace std;
     // 
 // 사용 예시
 int main() {
-    // Player 클래스 객체 생성
-    Player p("용사 킴", 100, 20, 10, 5);
-    p.displayStats();
 
-    // Monster 클래스 객체 생성
-    Monster m("슬라임", 30, 5, 2, 10);
-    m.attackTarget();
-    std::cout << "슬라임 HP: " << m.getHP() << std::endl;
-
-    return 0;
 }
 
   
