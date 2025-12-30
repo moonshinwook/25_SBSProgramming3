@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Spawner.h"
+
 using namespace std;
 
 // Type(형) Casting(변환)
@@ -13,7 +14,8 @@ public:
 
 class derived : public base
 {
-
+public:
+    void show() { cout << "derived입니다." << endl; }
 };
 
 
@@ -80,6 +82,13 @@ int main()
 
     runObject->move();
 
-    Spawner mySpawner;
-    ifstream ifs("Run.json");
+    std::ifstream ifs("Run.json");
+    IStreamWrapper isw(ifs);
+    Document doc;
+    doc.ParseStream(isw);
+
+    auto Objects  = RunFactory::CreateFromValue(doc);
+
+    Spawner myspawner;
+    
 }

@@ -57,7 +57,7 @@ public:
 class RunFactory {
 public:
     // JSON Document를 입력받아 적절한 Run 파생 클래스 포인터를 반환하는 팩토리 메서드
-    static std::unique_ptr<Run> CreateFromValue(const rapidjson::Value& dataArray) {
+    static std::vector<unique_ptr<Run>> CreateFromValue(const rapidjson::Value& dataArray) {
         std::vector<std::unique_ptr<Run>>tempObjects;
 
         if (!dataArray.IsArray()) return tempObjects;
@@ -66,7 +66,7 @@ public:
             if (!item.HasMember("type")) continue;
 
                 // int 값을 Enum 타입으로 형변환 (C++ cast 사용) (int->enum)
-                moveType type = static_cast<moveType>(item["moveType"].GetInt());
+                moveType mType = static_cast<moveType>(item["moveType"].GetInt());
 
                 // 공통 데이터 추출
                 int x = item["x"].GetInt();
@@ -103,6 +103,6 @@ public:
             for (auto& r : spawnedObjects)
             {
                 r->move();
-            }
+            } 
         }
     };
