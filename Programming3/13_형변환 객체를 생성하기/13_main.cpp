@@ -19,7 +19,15 @@ public:
 };
 
 
+#include <string>
+#include <fstream>
+#include <vector>
+#include <memory>
 
+#include "rapidjson/document.h"
+#include "rapidjson/writer.h"
+#include "rapidjson/stringbuffer.h"
+#include "rapidjson/istreamwrapper.h"
 
 
 int main()
@@ -87,7 +95,7 @@ int main()
     Document doc;
     doc.ParseStream(isw);
 
-    auto Objects  = RunFactory::CreateFromValue(doc);
+    auto Objects  = RunFactory::CreatFromValue(doc);
 
     Spawner myspawner;
     
