@@ -45,12 +45,16 @@ class Police
 {
 public:
     shared_ptr<Gun> myGun;
+
+    ~Police() { cout << "°æÂûÀÌ ¼Ò¸êµÇ¾ú½À´Ï´Ù." << endl; } // ¼Ò¸êÀÚ 
 };
 
 class Gun
 {
 public:
-    shared_ptr<Police> owner;
+    weak_ptr<Police> owner;
+
+    ~Gun() { cout << "ÃÑÀÌ ¼Ò¸êµÇ¾ú½À´Ï´Ù." << endl; }
 };
 
 class UEx

@@ -41,13 +41,11 @@ void Example3()
     cout << endl;
     cout << "Smart Point : Weak Example" << endl;
 
-    Police p1;
-    Gun gun;
-    p1.myGun = make_shared<Gun>(gun);
-    gun.owner = make_shared<Police>(p1);
+    shared_ptr<Police> p1 = make_shared<Police>(); // new Poliec() 대신 사용한다;
+    shared_ptr <Gun> gun = make_shared<Gun>();
+    p1->myGun = gun; // 경찰이 소유한 총이 Gun을 가리킨다.
+    gun->owner = p1;
 
-    gun.owner.reset();
-    p1.myGun.reset();
-    cout << p1.myGun.use_count() << endl;
-    cout << gun.owner.use_count() << endl;
+    cout << p1->myGun.use_count() << endl;
+    cout << gun->owner.use_count() << endl;
 }
