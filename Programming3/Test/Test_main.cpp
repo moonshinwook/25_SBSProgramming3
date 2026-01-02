@@ -14,8 +14,67 @@ using namespace std;
     // 
     // 
 // 사용 예시
-int main() {
+#include "GameObject.h"
+#include <vector>
 
+int main() {
+    // 1. Player 객체 생성 및 상속 테스트
+    cout << "--- 플레이어 객체 테스트 ---" << endl;
+    Player p1("Hero", 200, 30, 20, 0, 100);
+    p1.displayStats();
+    cout << endl;
+
+    // 2. JSON 파일에서 몬스터 데이터 로드 및 Monster 객체 생성 테스트
+    cout << "--- JSON 파일 로드 및 몬스터 객체 테스트 ---" << endl;
+
+    // 파일 경로 설정 (질문에서 제공된 경로 사용)
+    const string filePath = "C:\\Users\\msw47\\OneDrive\\바탕 화면\\25_SBSProgramming3\\Programming3\\Test\\Monster_data.json";
+
+    ifstream ifs(filePath);
+    if (!ifs.is_open()) {
+        cerr << "Error: JSON 파일을 열 수 없습니다. 경로를 확인하세요: " << filePath << endl;
+        // 디버깅을 위해 현재 작업 디렉토리도 출력해볼 수 있습니다.
+        // cerr << "Current working directory might be relevant if path is relative." << endl;
+        return 1;
+    }
+
+    IStreamWrapper isw(ifs);
+    Document doc;
+    doc.ParseStream(isw);
+
+    if (doc.HasParseError()) {
+        cerr << "Error: JSON 파싱 실패." << endl;
+        return 1;
+    }
+
+    if (doc.HasMember("monsters") && doc["monsters"].IsArray()) {
+        const Value& monsters = doc["monsters"];
+        vector<Monster> monsterList;
+
+        for (SizeType i = 0; i < monsters.Size(); i++) {
+            const Value& m = monsters[i];
+            Monster newMonster(
+                m["name"].GetString(),
+                m["hp"].GetInt(),
+                m["atk"].GetInt(),
+                m["defense"].GetInt(),
+                m["debuff"].GetInt(),
+                m["gold"].GetInt()
+            );
+            monsterList.push_back(newMonster);
+        }
+
+        // 로드된 몬스터 정보 출력
+        for (const auto& mon : monsterList) {
+            mon.displayStats();
+            mon.Monsterappeared();
+        }
+    }
+    else {
+        cerr << "Error: 'monsters' 배열을 JSON 파일에서 찾을 수 없습니다." << endl;
+    }
+
+    return 0;
 }
 
   

@@ -1,0 +1,596 @@
+[
+  {
+    "Name": "거대 들쥐",
+    "HP": "10~15",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "10",
+    "Reward": "X "
+  },
+  {
+    "Name": "거대 들쥐",
+    "HP": "11~17",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "10",
+    "Reward": "X "
+  },
+  {
+    "Name": "가시 슬라임(소)",
+    "HP": "10~14",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "10",
+    "Reward": "X "
+  },
+  {
+    "Name": "가시 슬라임(중)",
+    "HP": "28~32",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "10",
+    "Reward": "X "
+  },
+  {
+    "Name": "가시 슬라임(대)",
+    "HP": "64~70",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "10",
+    "Reward": "X "
+  },
+  {
+    "Name": "산성 슬라임(소)",
+    "HP": "8~12",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "15",
+    "Reward": "X "
+  },
+  {
+    "Name": "산성 슬라임(중)",
+    "HP": "28~32",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "15",
+    "Reward": "X "
+  },
+  {
+    "Name": "산성 슬라임(대)",
+    "HP": "65~69",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "15",
+    "Reward": "X "
+  },
+  {
+    "Name": "도적",
+    "HP": "44~48",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "거대 투구벌레",
+    "HP": "40~44",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "20",
+    "Reward": "X "
+  },
+  {
+    "Name": "붉은 옷을 입은 광신도 ",
+    "HP": "46~50",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "20",
+    "Reward": "X "
+  },
+  {
+    "Name": "붉은 옷을 입은 광신도 ",
+    "HP": "46~50",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "20",
+    "Reward": "X "
+  },
+  {
+    "Name": "붉은 옷을 입은 광신도 ",
+    "HP": "48~54",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "20",
+    "Reward": "X "
+  },
+  {
+    "Name": "마법이 깃든 식물",
+    "HP": "22~28",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "20",
+    "Reward": "X "
+  },
+  {
+    "Name": "방패 요정",
+    "HP": "12~15",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "20",
+    "Reward": "X "
+  },
+  {
+    "Name": "마법사 요정",
+    "HP": "23~25",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "20",
+    "Reward": "X "
+  },
+  {
+    "Name": "화난 요정",
+    "HP": "13~17",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "20",
+    "Reward": "X "
+  },
+  {
+    "Name": "뚱뚱한 요정",
+    "HP": "20~24",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "20",
+    "Reward": "X "
+  },
+  {
+    "Name": "교활한 요정",
+    "HP": "10~14",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "20",
+    "Reward": "X "
+  },
+  {
+    "Name": "숲을 지키는 식물",
+    "HP": "68~72",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "도적",
+    "HP": "50~54",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "숲을 지키는 새",
+    "HP": "25~31",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "비행 (비행 x일때 3)",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "푸른 옷을 입은 용사",
+    "HP": "95~99",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "푸른 옷을 입은 광신도 ",
+    "HP": "76~80",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "푸른 옷을 입은 광신도 ",
+    "HP": "48~56",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "스네코",
+    "HP": "114~120",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "뱀 식물 ",
+    "HP": "75~79",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "구체형 수호기",
+    "HP": "20 (방어도 40)",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "촉새",
+    "HP": "30",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "로미오",
+    "HP": "35~39",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "곰",
+    "HP": "40~44",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "덩어리 ",
+    "HP": "29~35",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "빈사기 ",
+    "HP": "42~56",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "40",
+    "Reward": "X "
+  },
+  {
+    "Name": "폭탄기",
+    "HP": "30",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "40",
+    "Reward": "X "
+  },
+  {
+    "Name": "구체 순찰기 ",
+    "HP": "90~96",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "40",
+    "Reward": "X "
+  },
+  {
+    "Name": "어두미 ",
+    "HP": "48~56",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "40",
+    "Reward": "X "
+  },
+  {
+    "Name": "아귀",
+    "HP": "300",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "40",
+    "Reward": "X "
+  },
+  {
+    "Name": "과도자",
+    "HP": "999",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "40",
+    "Reward": "X "
+  },
+  {
+    "Name": "첨탑 암종",
+    "HP": "170",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "40",
+    "Reward": "X "
+  },
+  {
+    "Name": "꿈틀대는 덩어리 ",
+    "HP": "160",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "강력한 타격 (32)",
+    "Gold": "40",
+    "Reward": "X "
+  },
+  {
+    "Name": "귀족 그렘린",
+    "HP": "82~86",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "라가볼린",
+    "HP": "109~111",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "보초기 x 3",
+    "HP": "38~42",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "30",
+    "Reward": "X "
+  },
+  {
+    "Name": "칼부림의 책",
+    "HP": "160~162",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "40",
+    "Reward": "X "
+  },
+  {
+    "Name": "그렘린 리더",
+    "HP": "140~148",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "40",
+    "Reward": "X "
+  },
+  {
+    "Name": "노예 관리자",
+    "HP": "54~60",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "40",
+    "Reward": "X "
+  },
+  {
+    "Name": "거인의 머리 ",
+    "HP": "500",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "50",
+    "Reward": "X "
+  },
+  {
+    "Name": "네메시스",
+    "HP": "185",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "50",
+    "Reward": "X "
+  },
+  {
+    "Name": "파충류 주술사",
+    "HP": "180~190",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "50",
+    "Reward": "X "
+  },
+  {
+    "Name": "단검 ",
+    "HP": "20~25",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "50",
+    "Reward": "X "
+  },
+  {
+    "Name": "대왕 슬라임 ",
+    "HP": "140",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "X",
+    "Reward": "X "
+  },
+  {
+    "Name": "붉은 용",
+    "HP": "250",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "날카로운 비늘 (가시 +3)",
+    "Gold": "X",
+    "Reward": "X "
+  },
+  {
+    "Name": null,
+    "HP": null,
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": null,
+    "Gold": "X",
+    "Reward": "X "
+  },
+  {
+    "Name": "요정왕",
+    "HP": "200",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "요정왕의 외침 (힘 +5)",
+    "Gold": "X",
+    "Reward": "X "
+  },
+  {
+    "Name": null,
+    "HP": null,
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": null,
+    "Gold": "X",
+    "Reward": "X "
+  },
+  {
+    "Name": "청동 자동인형",
+    "HP": "300",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "X",
+    "Reward": "X "
+  },
+  {
+    "Name": "청동 구체",
+    "HP": "52~58",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "X",
+    "Reward": "X "
+  },
+  {
+    "Name": "투사",
+    "HP": "420",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "도발 (약화와 취약 2)",
+    "Gold": "X",
+    "Reward": "X "
+  },
+  {
+    "Name": null,
+    "HP": null,
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "X",
+    "Reward": "X "
+  },
+  {
+    "Name": "수집가",
+    "HP": "282",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "X",
+    "Reward": "X "
+  },
+  {
+    "Name": "횃불",
+    "HP": "38~40",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": "X",
+    "Gold": "X",
+    "Reward": "X "
+  },
+  {
+    "Name": "깨어난 자",
+    "HP": "300",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": null,
+    "Gold": "X",
+    "Reward": "X "
+  },
+  {
+    "Name": "깨어난 자(페이즈 2)",
+    "HP": null,
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": null,
+    "Gold": "X",
+    "Reward": "X "
+  },
+  {
+    "Name": "시간 포식자 ",
+    "HP": "456",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": null,
+    "Gold": "X",
+    "Reward": "X "
+  },
+  {
+    "Name": "데카",
+    "HP": "250",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": null,
+    "Gold": "X",
+    "Reward": "X "
+  },
+  {
+    "Name": "도누",
+    "HP": "250",
+    "Def": "0",
+    "Debuff": "0",
+    "PATTERNS": null,
+    "Gold": "X",
+    "Reward": "X"
+  }
+]
