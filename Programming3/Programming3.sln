@@ -40,6 +40,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_템플릿에 대한 이�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15_플레이어와 스킬 데이터 구조화하기", "15_플레이어와 스킬 데이터 구조화하기\15_플레이어와 스킬 데이터 구조화하기.vcxproj", "{EFF4634B-2683-4A18-87A8-670B59FBCBFC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16_STL에 대한 이해 클래스 구현하기", "16_STL에 대한 이해 클래스 구현하기\16_STL에 대한 이해 클래스 구현하기.vcxproj", "{2C31E261-2959-4F19-8546-4480373D1440}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -176,6 +178,14 @@ Global
 		{EFF4634B-2683-4A18-87A8-670B59FBCBFC}.Release|x64.Build.0 = Release|x64
 		{EFF4634B-2683-4A18-87A8-670B59FBCBFC}.Release|x86.ActiveCfg = Release|Win32
 		{EFF4634B-2683-4A18-87A8-670B59FBCBFC}.Release|x86.Build.0 = Release|Win32
+		{2C31E261-2959-4F19-8546-4480373D1440}.Debug|x64.ActiveCfg = Debug|x64
+		{2C31E261-2959-4F19-8546-4480373D1440}.Debug|x64.Build.0 = Debug|x64
+		{2C31E261-2959-4F19-8546-4480373D1440}.Debug|x86.ActiveCfg = Debug|Win32
+		{2C31E261-2959-4F19-8546-4480373D1440}.Debug|x86.Build.0 = Debug|Win32
+		{2C31E261-2959-4F19-8546-4480373D1440}.Release|x64.ActiveCfg = Release|x64
+		{2C31E261-2959-4F19-8546-4480373D1440}.Release|x64.Build.0 = Release|x64
+		{2C31E261-2959-4F19-8546-4480373D1440}.Release|x86.ActiveCfg = Release|Win32
+		{2C31E261-2959-4F19-8546-4480373D1440}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

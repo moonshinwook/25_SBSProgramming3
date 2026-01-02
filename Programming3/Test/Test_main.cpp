@@ -28,7 +28,7 @@ int main() {
     cout << "--- JSON 파일 로드 및 몬스터 객체 테스트 ---" << endl;
 
     // 파일 경로 설정 (질문에서 제공된 경로 사용)
-    const string filePath = "C:\\Users\\msw47\\OneDrive\\바탕 화면\\25_SBSProgramming3\\Programming3\\Test\\Monster_data.json";
+    const string filePath = "Monster_data.json";
 
     ifstream ifs(filePath);
     if (!ifs.is_open()) {
