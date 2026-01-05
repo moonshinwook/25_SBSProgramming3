@@ -1,6 +1,3 @@
-#include <iostream>
-
-using namespace std;
 
     // 컨셉 왕국의 명을 받고 용을 처치하러 가는 용사
     // 흑막은 국왕이라 4막은 왕국 스테이지, 히든보스 국왕
@@ -13,28 +10,26 @@ using namespace std;
     // 
     // 
     // 
-// 사용 예시
-#include "GameObject.h"
+#include <iostream>
+#include <string>
+#include <fstream>
 #include <vector>
+#include <stdexcept> // std::stoi 예외 처리를 위해 포함
 
-int main() {
-    // 1. Player 객체 생성 및 상속 테스트
-    cout << "--- 플레이어 객체 테스트 ---" << endl;
-    Player p1("Hero", 200, 30, 20, 0, 100);
-    p1.displayStats();
-    cout << endl;
+#include "GameObject.h"
 
-    // 2. JSON 파일에서 몬스터 데이터 로드 및 Monster 객체 생성 테스트
-    cout << "--- JSON 파일 로드 및 몬스터 객체 테스트 ---" << endl;
 
-    // 파일 경로 설정 (질문에서 제공된 경로 사용)
-    const string filePath = "Monster_data.json";
+// --- main 함수 시작 (JSON 파싱 및 출력) ---
 
-    ifstream ifs(filePath);
+int main()
+{
+    cout << "JSON 파일 읽기" << endl;
+
+    string filepath = "Monster_data.json";
+    ifstream ifs(filepath);
+
     if (!ifs.is_open()) {
-        cerr << "Error: JSON 파일을 열 수 없습니다. 경로를 확인하세요: " << filePath << endl;
-        // 디버깅을 위해 현재 작업 디렉토리도 출력해볼 수 있습니다.
-        // cerr << "Current working directory might be relevant if path is relative." << endl;
+        cerr << "오류: " << filepath << " 파일을 열 수 없습니다. 파일 경로를 확인해주세요." << endl;
         return 1;
     }
 
@@ -43,38 +38,56 @@ int main() {
     doc.ParseStream(isw);
 
     if (doc.HasParseError()) {
-        cerr << "Error: JSON 파싱 실패." << endl;
+        cerr << "오류: JSON 파싱 오류 발생" << endl;
         return 1;
     }
 
-    if (doc.HasMember("monsters") && doc["monsters"].IsArray()) {
-        const Value& monsters = doc["monsters"];
-        vector<Monster> monsterList;
+    // 파싱된 Monster 객체들을 저장할 벡터
+    std::vector<Monster> monsters;
 
-        for (SizeType i = 0; i < monsters.Size(); i++) {
-            const Value& m = monsters[i];
-            Monster newMonster(
-                m["name"].GetString(),
-                m["hp"].GetInt(),
-                m["atk"].GetInt(),
-                m["defense"].GetInt(),
-                m["debuff"].GetInt(),
-                m["gold"].GetInt()
-            );
-            monsterList.push_back(newMonster);
-        }
+    if (doc.IsArray())
+    {
+        for (SizeType i = 0; i < doc.Size(); i++)
+        {
+            const Value& obj = doc[i];
 
-        // 로드된 몬스터 정보 출력
-        for (const auto& mon : monsterList) {
-            mon.displayStats();
-            mon.Monsterappeared();
+            // JSON 데이터의 모든 필수 멤버 존재 여부 및 타입 확인
+            if (obj.IsObject() &&
+                obj.HasMember("NAME") && obj["NAME"].IsString() &&
+                obj.HasMember("HP") && obj["HP"].IsInt() &&
+                obj.HasMember("ATK") && obj["ATK"].IsInt() && // ATK가 int 타입이라고 가정
+                obj.HasMember("DEF") && obj["DEF"].IsInt() &&
+                obj.HasMember("DEBUFF") && obj["DEBUFF"].IsInt() &&
+                obj.HasMember("GOLD") && obj["GOLD"].IsInt()
+                )
+            {
+                // Monster 객체 생성 및 벡터에 추가
+                monsters.emplace_back(
+                    obj["NAME"].GetString(),
+                    obj["HP"].GetInt(),
+                    obj["ATK"].GetInt(),
+                    obj["DEF"].GetInt(),
+                    obj["DEBUFF"].GetInt(),
+                    obj["GOLD"].GetInt()
+                );
+            }
+            else {
+                cerr << "경고: 유효하지 않은 JSON 객체 구조 또는 타입이 발견되어 스킵합니다 (인덱스: " << i << ")" << endl;
+            }
         }
     }
     else {
-        cerr << "Error: 'monsters' 배열을 JSON 파일에서 찾을 수 없습니다." << endl;
+        cerr << "오류: JSON 파일의 최상위 요소가 배열(Array)이 아닙니다." << endl;
+        return 1;
     }
+
+    // 4. 예제 출력 (저장된 모든 몬스터 정보 출력)
+    cout << "\n--- 몬스터 데이터 로드 완료 및 출력 ---" << endl;
+    for (const auto& m : monsters)
+    {
+        m.displayStats();
+    }
+    cout << "--------------------------------------" << endl;
 
     return 0;
 }
-
-  

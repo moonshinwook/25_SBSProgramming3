@@ -1,596 +1,498 @@
 [
   {
-    "Name": "거대 들쥐",
-    "HP": "10~15",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "10",
-    "Reward": "X "
+    "NAME": "Giant Field Mouse ",
+    "HP": 15,
+    "ATK": 7,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 10
   },
   {
-    "Name": "거대 들쥐",
-    "HP": "11~17",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "10",
-    "Reward": "X "
+    "NAME": "Giant Field Mouse ",
+    "HP": 17,
+    "ATK": 10,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 10
   },
   {
-    "Name": "가시 슬라임(소)",
-    "HP": "10~14",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "10",
-    "Reward": "X "
+    "NAME": "Spike Slime (Small) ",
+    "HP": 14,
+    "ATK": 8,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 10
   },
   {
-    "Name": "가시 슬라임(중)",
-    "HP": "28~32",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "10",
-    "Reward": "X "
+    "NAME": "Spike Slime (Medium) ",
+    "HP": 32,
+    "ATK": 10,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 10
   },
   {
-    "Name": "가시 슬라임(대)",
-    "HP": "64~70",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "10",
-    "Reward": "X "
+    "NAME": "Spike Slime (Large) ",
+    "HP": 70,
+    "ATK": 12,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 10
   },
   {
-    "Name": "산성 슬라임(소)",
-    "HP": "8~12",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "15",
-    "Reward": "X "
+    "NAME": "Acid Slime (Small) ",
+    "HP": 12,
+    "ATK": 5,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 15
   },
   {
-    "Name": "산성 슬라임(중)",
-    "HP": "28~32",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "15",
-    "Reward": "X "
+    "NAME": "Acid Slime (Medium) ",
+    "HP": 32,
+    "ATK": 7,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 15
   },
   {
-    "Name": "산성 슬라임(대)",
-    "HP": "65~69",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "15",
-    "Reward": "X "
+    "NAME": "Acid Slime (Large) ",
+    "HP": 69,
+    "ATK": 10,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 15
   },
   {
-    "Name": "도적",
-    "HP": "44~48",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Bandit ",
+    "HP": 48,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "거대 투구벌레",
-    "HP": "40~44",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "20",
-    "Reward": "X "
+    "NAME": "Giant Beetle ",
+    "HP": 44,
+    "ATK": 15,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 20
   },
   {
-    "Name": "붉은 옷을 입은 광신도 ",
-    "HP": "46~50",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "20",
-    "Reward": "X "
+    "NAME": "Red Robed Cultist ",
+    "HP": 50,
+    "ATK": 12,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 20
   },
   {
-    "Name": "붉은 옷을 입은 광신도 ",
-    "HP": "46~50",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "20",
-    "Reward": "X "
+    "NAME": "Red Robed Cultist ",
+    "HP": 50,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 20
   },
   {
-    "Name": "붉은 옷을 입은 광신도 ",
-    "HP": "48~54",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "20",
-    "Reward": "X "
+    "NAME": "Red Robed Cultist ",
+    "HP": 54,
+    "ATK": 15,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 20
   },
   {
-    "Name": "마법이 깃든 식물",
-    "HP": "22~28",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "20",
-    "Reward": "X "
+    "NAME": "Enchanted Plant ",
+    "HP": 28,
+    "ATK": 17,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 20
   },
   {
-    "Name": "방패 요정",
-    "HP": "12~15",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "20",
-    "Reward": "X "
+    "NAME": "Shield Sprite ",
+    "HP": 15,
+    "ATK": 10,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 20
   },
   {
-    "Name": "마법사 요정",
-    "HP": "23~25",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "20",
-    "Reward": "X "
+    "NAME": "Mage Sprite ",
+    "HP": 25,
+    "ATK": 4,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 20
   },
   {
-    "Name": "화난 요정",
-    "HP": "13~17",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "20",
-    "Reward": "X "
+    "NAME": "Angry Sprite ",
+    "HP": 17,
+    "ATK": 20,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 20
   },
   {
-    "Name": "뚱뚱한 요정",
-    "HP": "20~24",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "20",
-    "Reward": "X "
+    "NAME": "Fat Sprite ",
+    "HP": 24,
+    "ATK": 10,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 20
   },
   {
-    "Name": "교활한 요정",
-    "HP": "10~14",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "20",
-    "Reward": "X "
+    "NAME": "Cunning Sprite ",
+    "HP": 14,
+    "ATK": 15,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 20
   },
   {
-    "Name": "숲을 지키는 식물",
-    "HP": "68~72",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Forest Guardian Plant ",
+    "HP": 72,
+    "ATK": 17,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "도적",
-    "HP": "50~54",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Bandit ",
+    "HP": 54,
+    "ATK": 16,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "숲을 지키는 새",
-    "HP": "25~31",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "비행 (비행 x일때 3)",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Forest Guardian Bird ",
+    "HP": 31,
+    "ATK": 20,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "푸른 옷을 입은 용사",
-    "HP": "95~99",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Blue Robed Warrior ",
+    "HP": 99,
+    "ATK": 22,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "푸른 옷을 입은 광신도 ",
-    "HP": "76~80",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Blue Robed Cultist ",
+    "HP": 80,
+    "ATK": 25,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "푸른 옷을 입은 광신도 ",
-    "HP": "48~56",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Blue Robed Cultist ",
+    "HP": 56,
+    "ATK": 21,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "스네코",
-    "HP": "114~120",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Snecko ",
+    "HP": 120,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "뱀 식물 ",
-    "HP": "75~79",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Snake Plant ",
+    "HP": 79,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "구체형 수호기",
-    "HP": "20 (방어도 40)",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Sphere Guardian ",
+    "HP": 60,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "촉새",
-    "HP": "30",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Chirper ",
+    "HP": 30,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "로미오",
-    "HP": "35~39",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Romeo ",
+    "HP": 39,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "곰",
-    "HP": "40~44",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Bear ",
+    "HP": 44,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "덩어리 ",
-    "HP": "29~35",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Blob ",
+    "HP": 35,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "빈사기 ",
-    "HP": "42~56",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "40",
-    "Reward": "X "
+    "NAME": "Drone (Frail) ",
+    "HP": 56,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 40
   },
   {
-    "Name": "폭탄기",
-    "HP": "30",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "40",
-    "Reward": "X "
+    "NAME": "Drone (Bomb) ",
+    "HP": 30,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 40
   },
   {
-    "Name": "구체 순찰기 ",
-    "HP": "90~96",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "40",
-    "Reward": "X "
+    "NAME": "Sphere Patrol Drone ",
+    "HP": 96,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 40
   },
   {
-    "Name": "어두미 ",
-    "HP": "48~56",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "40",
-    "Reward": "X "
+    "NAME": "Darkling ",
+    "HP": 56,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 40
   },
   {
-    "Name": "아귀",
-    "HP": "300",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "40",
-    "Reward": "X "
+    "NAME": "Maw ",
+    "HP": 300,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 40
   },
   {
-    "Name": "과도자",
-    "HP": "999",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "40",
-    "Reward": "X "
+    "NAME": "Transient ",
+    "HP": 999,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 40
   },
   {
-    "Name": "첨탑 암종",
-    "HP": "170",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "40",
-    "Reward": "X "
+    "NAME": "Spire Growth ",
+    "HP": 170,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 40
   },
   {
-    "Name": "꿈틀대는 덩어리 ",
-    "HP": "160",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "강력한 타격 (32)",
-    "Gold": "40",
-    "Reward": "X "
+    "NAME": "Writhing Mass ",
+    "HP": 160,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 40
   },
   {
-    "Name": "귀족 그렘린",
-    "HP": "82~86",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Gremlin Nob ",
+    "HP": 86,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "라가볼린",
-    "HP": "109~111",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Lagavulin ",
+    "HP": 111,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "보초기 x 3",
-    "HP": "38~42",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "30",
-    "Reward": "X "
+    "NAME": "Sentries x 3 ",
+    "HP": 42,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 30
   },
   {
-    "Name": "칼부림의 책",
-    "HP": "160~162",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "40",
-    "Reward": "X "
+    "NAME": "Book of Stabbing ",
+    "HP": 162,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 40
   },
   {
-    "Name": "그렘린 리더",
-    "HP": "140~148",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "40",
-    "Reward": "X "
+    "NAME": "Gremlin Leader ",
+    "HP": 148,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 40
   },
   {
-    "Name": "노예 관리자",
-    "HP": "54~60",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "40",
-    "Reward": "X "
+    "NAME": "Slavers ",
+    "HP": 60,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 40
   },
   {
-    "Name": "거인의 머리 ",
-    "HP": "500",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "50",
-    "Reward": "X "
+    "NAME": "Giant Head ",
+    "HP": 500,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 50
   },
   {
-    "Name": "네메시스",
-    "HP": "185",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "50",
-    "Reward": "X "
+    "NAME": "Nemesis ",
+    "HP": 185,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 50
   },
   {
-    "Name": "파충류 주술사",
-    "HP": "180~190",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "50",
-    "Reward": "X "
+    "NAME": "Reptomancer ",
+    "HP": 190,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 50
   },
   {
-    "Name": "단검 ",
-    "HP": "20~25",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "50",
-    "Reward": "X "
+    "NAME": "Dagger ",
+    "HP": 25,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 50
   },
   {
-    "Name": "대왕 슬라임 ",
-    "HP": "140",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "X",
-    "Reward": "X "
+    "NAME": "Slime Boss ",
+    "HP": 140,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 100
   },
   {
-    "Name": "붉은 용",
-    "HP": "250",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "날카로운 비늘 (가시 +3)",
-    "Gold": "X",
-    "Reward": "X "
+    "NAME": "Red Dragon ",
+    "HP": 250,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 100
   },
   {
-    "Name": null,
+    "NAME": "Fairy King ",
+    "HP": 200,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 100
+  },
+  {
+    "NAME": "Bronze Automaton ",
+    "HP": 300,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 200
+  },
+  {
+    "NAME": "Bronze Orb ",
+    "HP": 58,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 200
+  },
+  {
+    "NAME": "Champion ",
+    "HP": 420,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 200
+  },
+  {
+    "NAME": "Collector ",
+    "HP": 282,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 200
+  },
+  {
+    "NAME": "Torch ",
+    "HP": 40,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 200
+  },
+  {
+    "NAME": "Awakened One ",
+    "HP": 300,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 300
+  },
+  {
+    "NAME": "Awakened One (Phase 2) ",
     "HP": null,
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": null,
-    "Gold": "X",
-    "Reward": "X "
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 300
   },
   {
-    "Name": "요정왕",
-    "HP": "200",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "요정왕의 외침 (힘 +5)",
-    "Gold": "X",
-    "Reward": "X "
+    "NAME": "Time Eater ",
+    "HP": 456,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 300
   },
   {
-    "Name": null,
-    "HP": null,
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": null,
-    "Gold": "X",
-    "Reward": "X "
-  },
-  {
-    "Name": "청동 자동인형",
-    "HP": "300",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "X",
-    "Reward": "X "
-  },
-  {
-    "Name": "청동 구체",
-    "HP": "52~58",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "X",
-    "Reward": "X "
-  },
-  {
-    "Name": "투사",
-    "HP": "420",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "도발 (약화와 취약 2)",
-    "Gold": "X",
-    "Reward": "X "
-  },
-  {
-    "Name": null,
-    "HP": null,
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "X",
-    "Reward": "X "
-  },
-  {
-    "Name": "수집가",
-    "HP": "282",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "X",
-    "Reward": "X "
-  },
-  {
-    "Name": "횃불",
-    "HP": "38~40",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": "X",
-    "Gold": "X",
-    "Reward": "X "
-  },
-  {
-    "Name": "깨어난 자",
-    "HP": "300",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": null,
-    "Gold": "X",
-    "Reward": "X "
-  },
-  {
-    "Name": "깨어난 자(페이즈 2)",
-    "HP": null,
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": null,
-    "Gold": "X",
-    "Reward": "X "
-  },
-  {
-    "Name": "시간 포식자 ",
-    "HP": "456",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": null,
-    "Gold": "X",
-    "Reward": "X "
-  },
-  {
-    "Name": "데카",
-    "HP": "250",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": null,
-    "Gold": "X",
-    "Reward": "X "
-  },
-  {
-    "Name": "도누",
-    "HP": "250",
-    "Def": "0",
-    "Debuff": "0",
-    "PATTERNS": null,
-    "Gold": "X",
-    "Reward": "X"
+    "NAME": "Donu and Deca",
+    "HP": 250,
+    "ATK": 13,
+    "DEF": 0,
+    "DEBUFF": 0,
+    "GOLD": 300
   }
 ]
