@@ -36,6 +36,15 @@ public:
     int getDEBUFF() const { return DEBUFF; }
 };
 
+class Player : public GameObject
+{
+private:
+    string playerName;
+    int Level;
+    int Experience;
+public:
+};
+
 // 자식 클래스 (Child/Derived Class) - Monster
 class Monster : public GameObject
 {
