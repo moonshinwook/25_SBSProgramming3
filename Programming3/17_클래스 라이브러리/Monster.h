@@ -16,9 +16,7 @@ public:
 
     bool operator>(const Monster& other); // 나의 _hp(Monster)other._hp
 
-    Monster(int id, int hp, int atk, string name)
-        : BattleObject(id, hp, atk), _name(name) {}
-
+    Monster(int id, RoomObjectType Type, int hp, int atk, string name);
     // 접근 지정자.
     // 생성 - 소멸자
     // 상속 - 구성

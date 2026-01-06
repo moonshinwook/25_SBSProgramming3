@@ -11,6 +11,9 @@ bool Monster::operator>(const Monster& other)
     return GetStrength() > other.GetStrength();
 }
 
+Monster::Monster(int id, RoomObjectType Type, int hp, int atk, string name)
+:BattleObject(id, Type, hp, atk), _name(name){ }
+
 void Monster::Attack(BattleObject* other)
 {
     cout << "(플레이어)에게 " << _atk << "만큼 데미지를 주었습니다!" << endl;

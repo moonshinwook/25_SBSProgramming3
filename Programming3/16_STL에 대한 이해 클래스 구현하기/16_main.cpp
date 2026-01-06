@@ -44,10 +44,17 @@ private:
 
     vector<Monster*> AvailableMonsters; // 랜덤한 몬스터들이 배정되어 있다. 
     vector<Monster*> settingMonsters; // 약한 몬스터가  0번 배열에 저장이 되어 있다.
+
+    vector<TreasureObject*> roomTreasures; // 방에서 생성될 수 있는 보물 정보
 public:
     void Initialize(const vector<Monster*>& copyMonsters) 
     {
         AvailableMonsters = copyMonsters;
+    }
+
+    void SetTreasureRoom(TreasureObject* tr)
+    {
+        roomTreasures.push_back(tr);
     }
 
     // 몬스터 들의 강함 순위를 정해서 약한 몬스터가 앞에서 등장하게 구현하고 싶다. (순서를 재정렬하고 싶다.)
@@ -56,11 +63,22 @@ public:
     {
         settingMonsters = AvailableMonsters;
         sort(settingMonsters.begin(), settingMonsters.end(), CompareStrength());
+
+        for (const auto& go : settingMonsters)
+        {
+
+            roomObjects.push_back(go);
+        }
+
+        for (const auto& go : roomTreasures)
+        {
+            roomObjects.push_back(go);
+        }
     }
 
-    int RoomCount() { return settingMonsters.size(); }
+    int RoomCount() { return roomObjects.size(); }
 
-    Monster* Encount(int roomIndex) { return settingMonsters[roomIndex]; }
+    GameObject* Encount(int roomIndex) { return roomObjects[roomIndex]; }
     //int arr[5]  arr(주소) + 1      [i0] [i1] [i2] [3] [4]
     // int* arr;
 };
@@ -121,60 +139,118 @@ private:                                             // GameObject->virtual void
         }
     }
 
+    void GetTreasure(TreasureObject* tr)
+    {
+        tr->GetTreasure();
+    }
 
 public:
-    void PlayRoom(Player* player, Room& room)
-    {
-        int battleCount = room.RoomCount();
 
-        for (int i = 0; i < battleCount; i++)
-        {
-            // 전투
-            
-            cout << i + 1 << "번째 방에서 플레이어가 진입했습니다." << endl;
-
-            // 첫번째 방에 있는 오브젝트[몬스터]와 조우했다. 
-            Monster* mon =  room.Encount(i);
-
-            Battle(player, mon);
-
-            if (player->IsDeath())
-            {
-                cout << i + 1 << "번째 방에서 플레이어가 사망했습니다." << endl;
-                return;
-            }
-
-            system("cls");
-        }
-    }
+    void PlayRoom(Player* player, Room& room);
 };
 
+inline void BattleManager::PlayRoom(Player* player, Room& room)
+{
+    int battleCount = room.RoomCount();
+
+    for (int i = 0; i < battleCount; i++)
+    {
+        // 전투
+
+        cout << i + 1 << "번째 방에서 플레이어가 진입했습니다." << endl;
+
+        // 첫번째 방에 있는 오브젝트[몬스터]와 조우했다. 
+
+        // i번방에 있는 요소가 몬스터 이외의 정보도 가질 수 있으면 좋겠어.
+        GameObject* obj = room.Encount(i);
+
+        if (BattleObject* mon = dynamic_cast<BattleObject*>(obj))/*obj 만약에 BattleObject* 타입이면*/
+        {
+            //Battle함수를 실행할거예요.
+            // 타입을 변경하는 문법 Type Casting. 
+            Battle(player, mon);
+        }
+        else if (TreasureObject* tr = dynamic_cast<TreasureObject*>(obj))
+        {
+            // 플레이어가 getTreasure 실제로 Get했다.
+            //player->GetItem(Item);
+            tr->GetTreasure(); // money, string -> Item 클래스 다시 재정의
+            //Item* tempItem = new Item(tr->money, tr->contents);
+            //player->GetItem(tempItem);  // TreasureItem, WeaponItem, UseItem, BuffItem.........
+            
+            // TODO (나중에 추가할 내용)
+
+            cout << "아이템을 저장하고 있습니다." << endl;
+            Sleep(1000);
+        }
+
+
+        // obj -> Type : 3가지. 행동을 할 수 있다.
+        // 배틀 : Battle();
+        // 보물 : GetTreasure();
+        // 휴식 : Rest();
+
+        if (player->IsDeath())
+        {
+            cout << i + 1 << "번째 방에서 플레이어가 사망했습니다." << endl;
+            return;
+        }
+
+        system("cls");
+    }
+}
 int main ()
 {
 
     cout << "16강 STL 예제" << endl;
 
-    Room room;
+    Room room0;
     vector<Monster*> copyMonsters;
 
-    Monster* MonsterB = new Monster(2, 600, 6, "B");
-    MonsterB->SetRoomType(RoomObjectType::BATTLE);
-    MonsterB->SetRoomType(RoomObjectType::BATTLE);
-    MonsterB->SetRoomType(RoomObjectType::BATTLE);
-    MonsterB->SetRoomType(RoomObjectType::BATTLE);
+    copyMonsters.push_back(new Monster(2, RoomObjectType::BATTLE, 700, 7, "C"));
+    copyMonsters.push_back(new Monster(1, RoomObjectType::BATTLE, 500, 5, "A"));
+    copyMonsters.push_back(new Monster(4, RoomObjectType::BATTLE, 600, 6, "B"));
+    copyMonsters.push_back(new Monster(3, RoomObjectType::BATTLE, 800, 8, "D"));
 
-    copyMonsters.push_back(new Monster(2,700, 7, "C"));
-    copyMonsters.push_back(new Monster(1,500, 5, "A"));
-    copyMonsters.push_back(new Monster(4,600, 6, "B"));
-    copyMonsters.push_back(new Monster(3,800, 8, "D"));
+    room0.SetTreasureRoom(new TreasureObject(10001, RoomObjectType::TREASURE, 500, "보물상자"));
+    
+    room0.Initialize(copyMonsters);
+    room0.SetOrder();
 
+    // stage 클래스. 클래스 vector Room타입을 가지고 있고, 클래스가 모든 Room 다 클리어하면 해당 stage 끝
 
-    room.Initialize(copyMonsters);
-    room.SetOrder();
-
+    
 
     Player* player= new Player;
     // room에 있는 몬스터와 만났다. 
     BattleManager _bm;
-    _bm.PlayRoom(player, room);
+
+    Room room1;
+    Room room2;
+    Room room3;
+
+
+    //Stage.push_back(room0);
+    //Stage.push_back(room1);
+    //Stage.push_back(room2);
+    //Stage.push_back(room3);
+
+    // --------------------------------------------------------- 데이터 설정 --------------------------------- // 
+    
+    while (true)
+    {
+        // 입력
+
+        // 갱신
+
+        // 렌더링
+    }
+
+    string stageName = "room" + 0;
+
+    // Type이름을 이용해서 Room 클래스로 형변환
+    _bm.PlayRoom(player,room0); // 스테이지 -> 1 2 3 4 5 
+    //stageIndex++;
+    // 렌더링
 }
+
